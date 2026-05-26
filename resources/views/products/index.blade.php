@@ -2,15 +2,15 @@
 
 @section('content')
 <!-- Webhook Test Banner -->
-<div style="background: linear-gradient(90deg, rgba(16,185,129,0.2), rgba(52,211,153,0.2)); border: 1px solid rgba(16,185,129,0.4); border-radius: 1rem; padding: 1rem 1.5rem; margin-bottom: 2rem; display: flex; align-items: center; justify-content: space-between;">
+<div style="background: linear-gradient(90deg, rgba(6,182,212,0.2), rgba(59,130,246,0.2)); border: 1px solid rgba(6,182,212,0.4); border-radius: 1rem; padding: 1rem 1.5rem; margin-bottom: 2rem; display: flex; align-items: center; justify-content: space-between;">
     <div style="display: flex; align-items: center; gap: 1rem;">
-        <span style="font-size: 1.5rem;">✅</span>
+        <span style="font-size: 1.5rem;">💎</span>
         <div>
-            <h3 style="font-weight: 700; color: #34d399; margin-bottom: 0.25rem;">PaaS Webhook Test #4</h3>
-            <p style="font-size: 0.85rem; color: var(--text-muted);">Redeployment successful and container is running! The PaaS git integration is incredibly fast.</p>
+            <h3 style="font-weight: 700; color: #38bdf8; margin-bottom: 0.25rem;">PaaS Webhook Test #5</h3>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">Shiny new blue theme for Build #5! Trigger the webhook one more time to see the magic.</p>
         </div>
     </div>
-    <span style="font-size: 0.75rem; font-weight: 600; padding: 0.25rem 0.75rem; background: rgba(52,211,153,0.2); color: #6ee7b7; border-radius: 9999px; border: 1px solid rgba(52,211,153,0.3);">Build #4</span>
+    <span style="font-size: 0.75rem; font-weight: 600; padding: 0.25rem 0.75rem; background: rgba(59,130,246,0.2); color: #60a5fa; border-radius: 9999px; border: 1px solid rgba(59,130,246,0.3);">Build #5</span>
 </div>
 
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
