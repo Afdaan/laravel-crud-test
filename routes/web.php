@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\DiagnosticsController;
 
 Route::get('login', [LoginController::class, 'showLoginForm'])->name('login');
 Route::post('login', [LoginController::class, 'authenticate'])->name('login.post');
@@ -25,4 +26,5 @@ Route::middleware('auth')->group(function () {
         return redirect()->route('products.index');
     });
     Route::resource('products', ProductController::class);
+    Route::get('diagnostics', [DiagnosticsController::class, 'index'])->name('diagnostics.index');
 });

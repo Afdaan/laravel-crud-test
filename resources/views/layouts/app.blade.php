@@ -221,6 +221,7 @@
             <h1>Test CRUD & Storage</h1>
             <div style="display: flex; align-items: center; gap: 2rem;">
                 <a href="{{ route('products.index') }}" style="text-decoration: none; color: var(--text-muted); font-weight: 600;">Dashboard</a>
+                <a href="{{ route('diagnostics.index') }}" style="text-decoration: none; color: var(--text-muted); font-weight: 600;">PaaS Check</a>
                 @auth
                     <span style="color: var(--text-muted); font-size: 0.9rem;">{{ auth()->user()->name }}</span>
                     <form action="{{ route('logout') }}" method="POST" style="display: inline;">

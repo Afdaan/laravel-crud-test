@@ -3,7 +3,12 @@
 @section('content')
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
     <h2 style="font-size: 1.5rem; font-weight: 700;">All Products</h2>
-    <a href="{{ route('products.create') }}" class="btn btn-primary">+ Add New Product</a>
+    <div style="display: flex; gap: 1rem;">
+        <a href="{{ route('diagnostics.index') }}" class="btn" style="background: rgba(99, 102, 241, 0.15); color: #a5b4fc; border: 1px solid rgba(99, 102, 241, 0.3);">
+            🔍 PaaS Diagnostics
+        </a>
+        <a href="{{ route('products.create') }}" class="btn btn-primary">+ Add New Product</a>
+    </div>
 </div>
 
 @if($products->isEmpty())
