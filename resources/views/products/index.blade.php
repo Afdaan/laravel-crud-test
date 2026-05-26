@@ -2,15 +2,15 @@
 
 @section('content')
 <!-- Webhook Test Banner -->
-<div style="background: linear-gradient(90deg, rgba(99,102,241,0.2), rgba(168,85,247,0.2)); border: 1px solid rgba(99,102,241,0.4); border-radius: 1rem; padding: 1rem 1.5rem; margin-bottom: 2rem; display: flex; align-items: center; justify-content: space-between;">
+<div style="background: linear-gradient(90deg, rgba(99,102,241,0.2), rgba(236,72,153,0.2)); border: 1px solid rgba(236,72,153,0.4); border-radius: 1rem; padding: 1rem 1.5rem; margin-bottom: 2rem; display: flex; align-items: center; justify-content: space-between;">
     <div style="display: flex; align-items: center; gap: 1rem;">
-        <span style="font-size: 1.5rem;">🚀</span>
+        <span style="font-size: 1.5rem;">🔥</span>
         <div>
-            <h3 style="font-weight: 700; color: #a5b4fc; margin-bottom: 0.25rem;">PaaS Auto-Deploy Push Test</h3>
-            <p style="font-size: 0.85rem; color: var(--text-muted);">This banner was added to test the webhook integration. If you see this, the push event was successfully deployed!</p>
+            <h3 style="font-weight: 700; color: #f472b6; margin-bottom: 0.25rem;">PaaS Webhook Test #3</h3>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">Another successful push event! The auto-deployment is working perfectly.</p>
         </div>
     </div>
-    <span style="font-size: 0.75rem; font-weight: 600; padding: 0.25rem 0.75rem; background: rgba(16,185,129,0.2); color: #34d399; border-radius: 9999px; border: 1px solid rgba(16,185,129,0.3);">Build #2</span>
+    <span style="font-size: 0.75rem; font-weight: 600; padding: 0.25rem 0.75rem; background: rgba(236,72,153,0.2); color: #f472b6; border-radius: 9999px; border: 1px solid rgba(236,72,153,0.3);">Build #3</span>
 </div>
 
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
