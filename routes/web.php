@@ -21,6 +21,11 @@ Route::get('login', [LoginController::class, 'showLoginForm'])->name('login');
 Route::post('login', [LoginController::class, 'authenticate'])->name('login.post');
 Route::post('logout', [LoginController::class, 'logout'])->name('logout');
 
+Route::get('test-dispatch', function () {
+    \App\Jobs\TestQueueJob::dispatch();
+    return 'Job successfully dispatched to the queue!';
+});
+
 Route::middleware('auth')->group(function () {
     Route::get('/', function () {
         return redirect()->route('products.index');
